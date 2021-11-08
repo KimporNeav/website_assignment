@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.hero {
+  border: 1px solid green;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/best-sunset.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  height: 17vh;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content h2 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.content ul li {
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 0 10px;
+  border-bottom: 3px solid transparent;
+}
+.content ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+}
+.content ul li:hover {
+  border-bottom: 3px solid #e3b104;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.main-content {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.main-content h1 {
+  color: white;
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.main-content p {
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+button { 
+  position: relative;
+  width: 200px;
+  padding: 14px 30px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #e3b104;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+button:hover {
+  transform: scale(1.2);
+}
+.body {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  width: 30%;
+  text-align: center;
+  color: rgb(56, 197, 63);
+}
+.heading p {
+  color: rgb(44, 99, 33);
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+  line-height: 30px;
+}
+.heading h1 {
+  font-size: 40px;
+}
+.heading a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 45px;
+  padding: 14px 50px;
+  background-color:rgb(64, 214, 72);
+}
+.heading a:hover {
+  letter-spacing: 3px;
+  transition: 0.6s;
+}
+.main-categ {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.border {
+  margin: 30px 10px;
+}
+.categ {
+  display: inline;
+  text-align: center;
+  border-radius: 12px;
+}
+.categ h2 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+  width: 90%;
+  border-radius: 100px;
+  padding: 30px 30px;
+  margin-left: 10px;
+  background-color: rgb(177, 255, 181);
+}
+.categ a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 12px 30px;
+  background-color: rgb(64, 214, 72);
+}
+.places a:hover {
+  background-color: rgb(36, 122, 40);
+  letter-spacing: 3px;
+  transition: 0.6s;
+}
+.content-map {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/landscape.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.content-map h3 {
+  font-size: 30px;
+  padding: 30px 40px;
+  color: white;
+}
+.mapping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pic-map {
+  margin-top: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.pic-map:hover {
+  transform: scale(1.1);
+}
+.map {
+  margin-top: 40px;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+.map:hover {
+  transform: scale(1.1);
+}
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:white;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: black;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 60%;
+  margin: 22px 10px;
+  color: brown;
+  text-decoration: none;
+  font-size: 20px;
+}
+.socials a .facebook {
+  width: 40px;
+  height: auto;
+}
+.socials a .instagram {
+  width: 50px;
+  height: auto;
+}
+.socials a .twitter {
+  width: 50px;
+  height: auto;
+}
+.socials a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+.more {
+  color: black;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 3px;
+}
+.footer-bottom{
+  background: rgb(177, 255, 181);
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}

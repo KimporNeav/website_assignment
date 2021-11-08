@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo {
+  color: brown;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 120px;
+  height: auto;
+}
+span {
+  color: burlywood;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: burlywood;
+  transition: 0.4s;
+}
+.btn {
+  background-color: brown;
+  color: bisque;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.content {
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content .name {
+  padding-right: 150px;
+  padding-bottom: 100px;
+}
+.content .profile {
+  border-radius: 100%;
+  margin-bottom: 50px;
+  border: 5px solid brown;
+  width: 35%;
+}
+h1 {
+  color: brown;
+  font-size: 75px;
+  margin: 20px 0px 20px;
+}
+h3 {
+  color: brown;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4 {
+  color: chocolate;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newslatter form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+.newslatter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid burlywood;
+  border-radius: 30px;
+}
+.newslatter form input:last-child {
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  position: absolute;
+  background-color: brown;
+  color: burlywood;
+  box-shadow: 0px 0px 5px brown, 0px 0px 5px burlywood;
+  top: 6px;
+  right: 6px;
+}
+.about {
+  margin-top: 100px;
+  width: 100%;
+  padding: 10px;
+  background-color: #e9dac7;
+}
+.about img {
+  height: auto;
+  width: 430px;
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2 {
+  color: brown;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: brown;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p {
+  color: saddlebrown;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+button {
+  background-color: brown;
+  color: bisque;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: transparent;
+  color: brown;
+  border: 2px solid brown;
+  cursor: pointer;
+}
+.skills {
+  width: 100%;
+  padding: 1px 0;
+  margin-top: 50px;
+}
+.title h2 {
+  color: brown;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 450px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #e9dac7;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card .icon {
+  width: 100px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: brown;
+}
+h5 {
+  color: sienna;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: saddlebrown;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button {
+  background-color: brown;
+  color: bisque;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.card .button:hover {
+  background-color: transparent;
+  color: brown;
+  border: 2px solid brown;
+  cursor: pointer;
+}
+footer {
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #e9dac7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:first-child {
+  font-size: 30px;
+  color: brown;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer p:last-child {
+  color: black;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+.more {
+  color: black;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.social {
+  display: flex;
+}
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 60%;
+  margin: 22px 10px;
+  color: brown;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a .facebook {
+  width: 50px;
+  height: auto;
+}
+.social a .instagram {
+  width: 65px;
+  height: auto;
+}
+.social a .git {
+  width: 50px;
+  height: auto;
+}
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+.end {
+  margin-top: 100px;
+  position: absolute;
+  color: black;
+  bottom: 35px;
+  font-size: 14px;
+}
